@@ -11,6 +11,11 @@ function clean(string)
     sarray[x] = Base.strip(sarray[x], punctuation)
     x += 1
   end
+  
+  for x in 1:length(sarray)
+    word = join(split(sarray[x], '∣'))
+    sarray[x] = word
+    end
 
   return sarray
 end
