@@ -12,9 +12,9 @@ function clean(string)
     x += 1
   end
   
-  for x in 1:length(sarray)
-    word = join(split(sarray[x], '∣'))
-    sarray[x] = word
+  for i in 1:length(sarray)
+    word = join(split(sarray[i], '∣'))
+    sarray[i] = word
     end
 
   return sarray
