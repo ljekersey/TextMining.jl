@@ -180,7 +180,7 @@ dist_infinite(fv1, fv2)
 
 The **Cluster** type is also a **Dictionary** container. However, it restricts mappings to **Any => FeatureVector** types and subtypes. This allows users to meaningfully label groups of *FeatureVectors* for Classification. The *Cluster* type also computes the centroid of the set.
 
-An empty *Cluster* can be constructed as so:
+An empty *Cluster* can be constructed with the following function:
 ```julia
 cl = Cluster()
 ```
