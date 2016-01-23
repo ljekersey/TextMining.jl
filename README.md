@@ -172,7 +172,7 @@ dist_euclidean(fv1, fv2)
 ```julia
 dist_infinite(fv1, fv2)
 ```
-* Derived from the [L∞ Norm](http://en.wikipedia.org/wiki/Chebyshev_distance) and often referd to as the Chebyshev distance, this function returns the maximum absolute difference between any feature in **fv1** or **fv2**.
+* Derived from the [L∞ Norm](http://en.wikipedia.org/wiki/Chebyshev_distance) and often referredd to as the Chebyshev distance, this function returns the maximum absolute difference between any feature in **fv1** or **fv2**.
 
 ---
 
